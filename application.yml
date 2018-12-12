@@ -1,0 +1,16 @@
+﻿spring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles: dev
+    application:
+        name: microservicecloud-config-noodles-dev
+---
+spring:
+    profiles: test
+    application:
+        name: microservicecloud-config-noodles-test
+
+# 文件保存为 UTF-8 格式
