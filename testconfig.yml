@@ -6,7 +6,7 @@
 spring:
     profiles: dev
     application:
-        name: config-server-dev
+        name: config-server-dev11
 ---
 spring:
     profiles: test
