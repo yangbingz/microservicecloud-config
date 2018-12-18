@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: eureka-server
+    name: eureka-server11
 
 eureka:
   instance:
